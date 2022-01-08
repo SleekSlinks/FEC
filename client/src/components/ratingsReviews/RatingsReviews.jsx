@@ -14,7 +14,7 @@ import { serverURL } from '../../config.js';
 
 const ReviewList = React.lazy(() => import('./reviewList/ReviewList.jsx'));
 const WriteReview = React.lazy(() => import('./writeReviews/WriteReview.jsx'));
-const RatingBreakdown = React.lazy(() => import('./writeReviews/WriteReview.jsx'));
+const RatingBreakdown = React.lazy(() => import('./ratingBreakdown/RatingBreakdown.jsx'));
 const ProductBreakdown = React.lazy(() => import('./productBreakdown/ProductBreakdown.jsx'));
 const SortOptions = React.lazy(() => import('./sortOptions/SortOption.jsx'));
 
