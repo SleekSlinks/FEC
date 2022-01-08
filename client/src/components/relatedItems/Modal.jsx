@@ -125,9 +125,9 @@ export const Modal = ({ product, fade = false }, ref) => {
   const renderNameColumn = (leftProduct, category, rightProduct) => {
     return (
       <ModalBoldRow key={category ? category : null}>
-        <td>{`${category}: ${leftProduct}`}</td>
-        <td>{null}</td>
-        <td>{`${category}: ${rightProduct}`}</td>
+        <td>{`${leftProduct}`}</td>
+        <VS>vs</VS>
+        <td>{`${rightProduct}`}</td>
       </ModalBoldRow>
     );
   };
