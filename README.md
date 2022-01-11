@@ -88,7 +88,7 @@ the question and answer section. The average rating is displayed as a star ratin
     module.exports = {
       TOKEN: TOKEN,
       cloudinaryInfo: cloudinaryInfo
-    }```
+    };```
 
 3. Run webpack in development with:
 
@@ -98,8 +98,7 @@ the question and answer section. The average rating is displayed as a star ratin
 
    > `yarn run start`
 
-5. Connect with:
-   > `http://34.223.4.224/`
+5. Connect to domain matching serverURL in `client/src`
 
 
 
