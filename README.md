@@ -74,23 +74,21 @@ the question and answer section. The average rating is displayed as a star ratin
    
    > `server/controllers` requires github Auth token and cloudinary API tokens too, following the following format
      
-     ```
-        const TOKEN = 'githubPATtokenHere';
-        const cloudinaryInfo = {
-           CLOUDINARY_NAME: '',
-           CLOUDINARY_API_KEY: '',
-           CLOUDINARY_API_SECRET: '',
-           CLOUDINARY_IMAGE_UPLOAD_URL:
-             '',
-           CLOUDINARY_API_BASE_URL: '',
-           CLOUDINARY_SECURE_DELIVERY_URL: '',
-           CLOUDINARY_UPLOAD_PRESET: '',
-        };
-       module.exports = {
-         TOKEN: TOKEN,
-         cloudinaryInfo: cloudinaryInfo
-       }
-       ```
+  ```const TOKEN = 'githubPATtokenHere';
+     const cloudinaryInfo = {
+        CLOUDINARY_NAME: '',
+        CLOUDINARY_API_KEY: '',
+        CLOUDINARY_API_SECRET: '',
+        CLOUDINARY_IMAGE_UPLOAD_URL:
+          '',
+        CLOUDINARY_API_BASE_URL: '',
+        CLOUDINARY_SECURE_DELIVERY_URL: '',
+        CLOUDINARY_UPLOAD_PRESET: '',
+     };
+    module.exports = {
+      TOKEN: TOKEN,
+      cloudinaryInfo: cloudinaryInfo
+    }```
 
 3. Run webpack in development with:
 
