@@ -1,4 +1,4 @@
-# Sleek Slinks Fashion
+# [Sleek Slinks Fashion](https://project-catwalk-f2680.web.app/)
 Our team was given the task of creating a portal for an e-commerce website by Hack Reactor as our Front End Capstone.
 The client was using a legacy API for their product information that we were required to adapt to.
 Utilizing modern technologies such as React hooks and Styled components, the team was able to create four unique sections
